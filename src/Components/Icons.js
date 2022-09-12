@@ -1,15 +1,22 @@
 import React, { useState } from "react";
+import useBoop from "./useBoop";
+import { animated } from 'react-spring';
 
 //TO DO MAKE THE ICONS RESPONSIVE AND HOVER STATES NOT FINISHED
 
 function Icons() {
-  const [isHovered, setHover] = useState(false);
-  function Hovered() {}
-
+  const Boop = ({ children, ...boopConfig }) => {
+    const [style, trigger] = useBoop(boopConfig);
+    return (
+      <animated.span onMouseEnter={trigger} style={style}>
+        <img></img>
+      </animated.span>
+    );
+  };
   return (
     <div className="icon-position">
       {/* //Instagram */}
-      <a onMouseEnter={Hovered} href="https://www.instagram.com/cyrusbaebae/">
+      <a href="https://www.instagram.com/cyrusbaebae/">
         <img
           className="icons"
           src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"

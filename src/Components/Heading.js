@@ -13,14 +13,14 @@ function Heading() {
       <MediaQuery minWidth={1000}>
         <TypeAnimation
           sequence={[
-            "Hello! I'm Cyrus Baybay.", // Types 'One'
+            "Hello! I'm Cyrus Baybay.",
             3000,
-            "Cyrus.SoftwareEngineer", // Deletes 'One' and types 'Two'
+            "Cyrus.SoftwareEngineer",
             2000,
             "Cyrus.FullStackDeveloper",
             2000,
             () => {
-              console.log("Done typing!"); // Place optional callbacks anywhere in the array
+
             },
           ]}
           wrapper="h1"
