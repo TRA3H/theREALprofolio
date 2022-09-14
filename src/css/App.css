@@ -1,13 +1,5 @@
-body {
-  background-color: white;
-  color: black;
-  font-family: "Open Sans", sans-serif;
-}
-
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 .dark-mode {
@@ -16,11 +8,10 @@ ul {
 }
 
 .main {
-  text-align: center;
   font-size: 75px;
   position: relative;
-  top: 200px;
-  padding: 1%;
+  padding: 3%;
+  text-align: center;
 }
 
 .icon-position {
@@ -38,33 +29,24 @@ ul {
 }
 
 .nav_container {
-  width: 100%;
+  margin: auto;
+  width: 50%;
+  height: 78px;
   max-width: 1200px;
-  padding: 0 24px;
-  display: sticky;
+  display: inline-block;
   justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
   list-style-type: none;
 }
 
 .nav_items {
-  display: inline;
   padding: 2% 7% 0 7%;
+  float: right;
 }
 
 .header_container {
   width: 100%;
   max-width: 1200px;
-  display: relative;
-  align-items: center;
-  text-align: center;
 }
 
 .icon_container {
 }
-
-/* .icons:hover {
-  width: 100px;
-  height: 100px;
-} */

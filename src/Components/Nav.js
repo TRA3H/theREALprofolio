@@ -8,7 +8,7 @@ import React from "react";
 
 function Nav() {
   return (
-    <div className="nav-container">
+    <div className="nav_container">
       <ul>
         <li className="nav_items">About me</li>
         <li className="nav_items">Contact</li>
