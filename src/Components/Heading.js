@@ -38,9 +38,7 @@ function Heading() {
             2000,
             "FullStack Developer.",
             2000,
-            () => {
-              console.log("Done typing!"); // Place optional callbacks anywhere in the array
-            },
+            () => {},
           ]}
           wrapper="h1"
           cursor={true}

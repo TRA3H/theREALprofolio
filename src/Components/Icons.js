@@ -3,12 +3,17 @@ import useBoop from "./useBoop";
 import { animated } from "react-spring";
 
 //TO DO MAKE THE ICONS RESPONSIVE AND HOVER STATES NOT FINISHED
-
+//TO DO icons are moving together, need to seperate them
 function Icons() {
   const [style0, trigger0] = useBoop({ x: 5, rotation: 20 });
   const [style1, trigger1] = useBoop({ x: -5, rotation: 17 });
+<<<<<<< HEAD
   const [style2, trigger2] = useBoop({ x: 5, rotation: 19 });
   const [style3, trigger3] = useBoop({ x: -5, rotation: 18 });
+=======
+  const [style2, trigger2] = useBoop({ x: 5, rotation: 18 });
+  const [style3, trigger3] = useBoop({ x: -5, rotation: 19 });
+>>>>>>> 0ae2b342846796e396420c8b2a7f0b2e53a317b2
 
   return (
     <div className="icon-position">
