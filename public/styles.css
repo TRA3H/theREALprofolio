@@ -45,13 +45,11 @@ ul {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-<<<<<<< HEAD
   list-style-type: none;
 }
 
 .nav_items {
   display: inline;
-
   padding: 2% 7% 0 7%;
 }
 
@@ -61,11 +59,6 @@ ul {
   display: relative;
   align-items: center;
   text-align: center;
-=======
-}
-
-.header_container {
->>>>>>> 0ae2b342846796e396420c8b2a7f0b2e53a317b2
 }
 
 .icon_container {
