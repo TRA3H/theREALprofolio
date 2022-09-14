@@ -35,6 +35,22 @@ body {
   line-height: 0;
 }
 
+.nav_container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 24px;
+  display: sticky;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header_container {
+}
+
+.icon_container {
+}
+
 /* .icons:hover {
   width: 100px;
   height: 100px;

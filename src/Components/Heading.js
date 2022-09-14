@@ -19,9 +19,7 @@ function Heading() {
             2000,
             "Cyrus.FullStackDeveloper",
             2000,
-            () => {
-
-            },
+            () => {},
           ]}
           wrapper="h1"
           cursor={true}
@@ -40,9 +38,7 @@ function Heading() {
             2000,
             "FullStack Developer.",
             2000,
-            () => {
-              console.log("Done typing!"); // Place optional callbacks anywhere in the array
-            },
+            () => {},
           ]}
           wrapper="h1"
           cursor={true}
