@@ -50,7 +50,8 @@ ul {
 
 .nav_items {
   display: inline;
-  padding: 10% 7% 5% 7%;
+
+  padding: 2% 7% 0 7%;
 }
 
 .header_container {
