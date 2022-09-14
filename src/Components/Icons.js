@@ -1,23 +1,22 @@
 import React, { useState } from "react";
 import useBoop from "./useBoop";
-import { animated } from 'react-spring';
+import { animated } from "react-spring";
 
 //TO DO MAKE THE ICONS RESPONSIVE AND HOVER STATES NOT FINISHED
 
 function Icons() {
-  const Boop = ({ children, ...boopConfig }) => {
-    const [style, trigger] = useBoop(boopConfig);
-    return (
-      <animated.span onMouseEnter={trigger} style={style}>
-        <img></img>
-      </animated.span>
-    );
-  };
+  const [style0, trigger0] = useBoop({ x: 5, rotation: 20 });
+  const [style1, trigger1] = useBoop({ x: -5, rotation: 17 });
+  const [style2, trigger2] = useBoop({ x: 5, rotation: 19 });
+  const [style3, trigger3] = useBoop({ x: -5, rotation: 18 });
+
   return (
     <div className="icon-position">
       {/* //Instagram */}
       <a href="https://www.instagram.com/cyrusbaebae/">
-        <img
+        <animated.img
+          onMouseEnter={trigger0}
+          style={style0}
           className="icons"
           src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
           alt="insta"
@@ -25,7 +24,9 @@ function Icons() {
       </a>
       {/* {//GitHub} */}
       <a href="https://github.com/TRA3H">
-        <img
+        <animated.img
+          onMouseEnter={trigger1}
+          style={style1}
           className="icons"
           src="https://cdn-icons-png.flaticon.com/512/3291/3291695.png"
           alt="Github"
@@ -33,7 +34,9 @@ function Icons() {
       </a>
       {/* {//Linkedin} */}
       <a href="https://www.linkedin.com/in/cyrus-baybay-69a809175/">
-        <img
+        <animated.img
+          onMouseEnter={trigger2}
+          style={style2}
           className="icons"
           src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png"
           alt="Linkedin"
@@ -41,7 +44,9 @@ function Icons() {
       </a>
       {/* {//Twitter} */}
       <a href="https://twitter.com/CyrusBaebae">
-        <img
+        <animated.img
+          onMouseEnter={trigger3}
+          style={style3}
           className="icons"
           src="https://cdn-icons-png.flaticon.com/512/3256/3256013.png"
           alt="Twitter"

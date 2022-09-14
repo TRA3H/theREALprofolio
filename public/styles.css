@@ -4,17 +4,19 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .dark-mode {
   background-color: black;
   color: white;
 }
 
-.center {
-  margin: auto;
-  text-align: center;
-}
-
 .main {
+  text-align: center;
   font-size: 75px;
   position: relative;
   top: 200px;
@@ -33,6 +35,33 @@ body {
   width: 50px;
   height: 50px;
   line-height: 0;
+}
+
+.nav_container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 24px;
+  display: sticky;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+.nav_items {
+  display: inline;
+  padding: 10% 7% 5% 7%;
+}
+
+.header_container {
+  width: 100%;
+  max-width: 1200px;
+  display: relative;
+  align-items: center;
+  text-align: center;
+}
+
+.icon_container {
 }
 
 /* .icons:hover {

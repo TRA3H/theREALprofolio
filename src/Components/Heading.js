@@ -9,7 +9,7 @@ const test = "test";
 
 function Heading() {
   return (
-    <div>
+    <div className="header-container">
       <MediaQuery minWidth={1000}>
         <TypeAnimation
           sequence={[
@@ -19,9 +19,7 @@ function Heading() {
             2000,
             "Cyrus.FullStackDeveloper",
             2000,
-            () => {
-
-            },
+            () => {},
           ]}
           wrapper="h1"
           cursor={true}
