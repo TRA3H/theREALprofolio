@@ -2,7 +2,7 @@ ul {
   list-style-type: none;
 }
 
-.dark-mode {
+.dark_mode {
   background-color: black;
   color: white;
 }
@@ -14,7 +14,13 @@ ul {
   text-align: center;
 }
 
-.icon-container {
+.sub_main {
+  font-size: 40px;
+  position: relative;
+  padding: 3%;
+}
+
+.icon_container {
   text-align: center;
   /* position: relative; */
   margin-top: 5rem;
@@ -49,7 +55,26 @@ ul {
 .header_container {
   width: 100%;
   max-width: 1200px;
+  margin-top: 5rem;
 }
 
-.icon_container {
+.introduction_container {
+  width: 100%;
+  height: fit-content;
+  margin-top: 20rem;
 }
+
+.projects_container {
+  width: 100%;
+  height: fit-content;
+  margin-top: 20rem;
+}
+
+.skills_container {
+  width: 100%;
+  height: fit-content;
+  margin-top: 20rem;
+  text-align: center;
+}
+
+/* Animation Header */

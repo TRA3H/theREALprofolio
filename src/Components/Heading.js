@@ -9,7 +9,7 @@ const test = "test";
 
 function Heading() {
   return (
-    <div className="header-container">
+    <div className="header_container">
       <MediaQuery minWidth={1000}>
         <TypeAnimation
           sequence={[

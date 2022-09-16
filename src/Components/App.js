@@ -3,6 +3,9 @@ import "../css/App.css";
 import Nav from "./Nav";
 import Heading from "./Heading";
 import Icons from "./Icons";
+import Introduction from "./Introduction";
+import Projects from "./Projects";
+import Skills from "./Skills";
 
 function App() {
   return (
@@ -10,6 +13,7 @@ function App() {
       <Nav />
       <Heading />
       <Icons />
+      <Introduction />
     </div>
   );
 }
