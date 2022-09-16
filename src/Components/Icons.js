@@ -11,7 +11,7 @@ function Icons() {
   const [style3, trigger3] = useBoop({ x: -5, rotation: 18 });
 
   return (
-    <div className="icon-position">
+    <div className="icon-container">
       {/* //Instagram */}
       <a href="https://www.instagram.com/cyrusbaebae/">
         <animated.img
