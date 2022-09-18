@@ -5,13 +5,13 @@ function Introduction() {
     <div className="introduction_container">
       <h1 className="main">What I love to do</h1>
       <div className="intro_group">
-        <div className="intro_group_image">
+        <div className="intro_group_skill">
           <img
             className="giphy_img"
             src="https://media4.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif?cid=ecf05e47ax994vtt9diyli9ntdrqf249ft96u9w7e3b49q28&rid=giphy.gif&ct=s"
           ></img>
         </div>
-        <div className="intro_group_text">
+        <div className="intro_group_skill">
           <h2 className="sub_main">Full Stack Devleopment</h2>
           <p>☄️ Building responsive animated websites front end using React</p>
           <p>☄️ Backend applications in Node, Express, MongoDB, & Flask</p>
@@ -20,7 +20,7 @@ function Introduction() {
       </div>
 
       <div className="intro_group">
-        <div className="intro_group_text">
+        <div className="intro_group_skill">
           <h2 className="sub_main">Machine Learning & A.I.</h2>
           <p>☄️ Webscraping and organizing Data Visualization</p>
           <p>☄️ Automation applications for productivity and effciency</p>
@@ -29,22 +29,16 @@ function Introduction() {
             deeplearning and statistical use cases
           </p>
         </div>
-        <div className="intro_group_image">
-          <img
-            src="https://media1.giphy.com/media/AHu1HF5R96OzIXirXL/giphy.gif?cid=ecf05e479mvuqc909pqbe9ch21m3kyixrd82fv6cmqihydqx&rid=giphy.gif&ct=s"
-            className="giphy_img"
-          ></img>
+        <div className="intro_group_skill">
+          <img src="https://media1.giphy.com/media/AHu1HF5R96OzIXirXL/giphy.gif?cid=ecf05e479mvuqc909pqbe9ch21m3kyixrd82fv6cmqihydqx&rid=giphy.gif&ct=s"></img>
         </div>
       </div>
 
       <div className="intro_group">
-        <div className="intro_group_image">
-          <img
-            className="giphy_img"
-            src="https://media1.giphy.com/media/DdpmhAQpQZzwHSrQ3f/giphy.gif?cid=ecf05e4712ct85m55okrrcfeied8d4w1ru5p1d8azbiz2ojh&rid=giphy.gif&ct=s"
-          ></img>
+        <div className="intro_group_skill">
+          <img src="https://media1.giphy.com/media/DdpmhAQpQZzwHSrQ3f/giphy.gif?cid=ecf05e4712ct85m55okrrcfeied8d4w1ru5p1d8azbiz2ojh&rid=giphy.gif&ct=s"></img>
         </div>
-        <div className="intro_group_text">
+        <div className="intro_group_skill">
           <h2 className="sub_main">Web3 Devleopment & Blockchain</h2>
 
           <p>☄️ Developing Smart Contracts in Solidity</p>

@@ -64,7 +64,7 @@ ul {
 }
 
 .header_container {
-  padding-top: 10%;
+  padding-top: 5%;
   width: 100%;
   margin-top: 5rem;
 }
@@ -95,18 +95,16 @@ ul {
   display: flex;
 }
 
-.intro_group_text {
-  padding-left: 4%;
+.intro_group_skill {
+  padding-top: 5%;
+  display: inline-block;
+  width: 50%;
+  padding-left: 5%;
   width: 100%;
   height: fit-content;
 }
 
-.intro_group_image {
-  padding-left: 5%;
-  padding-bottom: 7%;
-}
-
-.intro_group_text > p {
+.intro_group_skill > p {
   font-size: 18px;
   font-weight: bold;
   text-align: left;
@@ -116,6 +114,7 @@ ul {
 }
 
 .giphy_img {
-  width: 100%;
+  max-width: 600px;
+  width: auto;
   height: auto;
 }
