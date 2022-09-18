@@ -1,3 +1,7 @@
+* {
+  color: rgb(0, 28, 85);
+}
+
 ul {
   list-style-type: none;
 }
@@ -8,7 +12,14 @@ ul {
 }
 
 .main {
-  font-size: 75px;
+  font-size: 70px;
+  position: relative;
+  padding: 3%;
+  text-align: center;
+}
+
+.typing_text {
+  font-size: 48px;
   position: relative;
   padding: 3%;
   text-align: center;
@@ -53,6 +64,7 @@ ul {
 }
 
 .header_container {
+  padding-top: 10%;
   width: 100%;
   margin-top: 5rem;
 }
@@ -60,7 +72,8 @@ ul {
 .introduction_container {
   width: 100%;
   height: fit-content;
-  margin-top: 20rem;
+  margin-top: 10rem;
+  display: inline-block;
 }
 
 .projects_container {
@@ -77,3 +90,32 @@ ul {
 }
 
 /* Animation Header */
+
+.intro_group {
+  display: flex;
+}
+
+.intro_group_text {
+  padding-left: 4%;
+  width: 100%;
+  height: fit-content;
+}
+
+.intro_group_image {
+  padding-left: 5%;
+  padding-bottom: 7%;
+}
+
+.intro_group_text > p {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 3%;
+  max-width: fit-content;
+  height: auto;
+}
+
+.giphy_img {
+  width: 100%;
+  height: auto;
+}

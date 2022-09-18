@@ -10,8 +10,8 @@ function Nav() {
   return (
     <div className="nav_container">
       <ul>
-        <li className="nav_items">About me</li>
-        <li className="nav_items">Contact</li>
+        <li className="nav_items">About</li>
+        <li className="nav_items">Contact Me</li>
       </ul>
     </div>
   );

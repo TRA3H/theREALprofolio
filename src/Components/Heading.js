@@ -10,24 +10,25 @@ const test = "test";
 function Heading() {
   return (
     <div className="header_container">
-      <MediaQuery minWidth={1000}>
+      <MediaQuery minWidth={960}>
+        <h1 className="main">"Hello! I'm Cyrus Baybay."</h1>
         <TypeAnimation
           sequence={[
-            "Hello! I'm Cyrus Baybay.",
-            3000,
             "Cyrus.SoftwareEngineer",
-            2000,
+            3000,
             "Cyrus.FullStackDeveloper",
-            2000,
+            3000,
+            "Cyrus.BlockchainDeveloper",
+            3000,
             () => {},
           ]}
           wrapper="h1"
           cursor={true}
           repeat={Infinity}
-          className={"main"}
+          className={"typing_text"}
         />
       </MediaQuery>
-      <MediaQuery maxWidth={1000}>
+      <MediaQuery maxWidth={900}>
         <TypeAnimation
           sequence={[
             "Hello!", // Types 'One'
